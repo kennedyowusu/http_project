@@ -49,11 +49,15 @@ class _HomeScreenState extends State<HomeScreen> {
                   child: Container(
                     margin: const EdgeInsets.symmetric(
                       horizontal: 16,
-                      vertical: 8,
+                      vertical: 10,
                     ),
                     decoration: BoxDecoration(
-                      color: Colors.teal[50],
+                      color: Colors.white30,
                       borderRadius: BorderRadius.circular(8),
+                      border: Border.all(
+                        color: Colors.grey.shade300,
+                        width: 1,
+                      ),
                     ),
                     child: ListTile(
                       contentPadding: const EdgeInsets.symmetric(

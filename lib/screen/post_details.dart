@@ -34,8 +34,12 @@ class _PostDetailScreenState extends State<PostDetailScreen> {
           vertical: 8,
         ),
         decoration: BoxDecoration(
-          color: Colors.teal[50],
+          color: Colors.white30,
           borderRadius: BorderRadius.circular(8),
+          border: Border.all(
+            color: Colors.grey.shade300,
+            width: 1,
+          ),
         ),
         child: ListTile(
           contentPadding: const EdgeInsets.symmetric(
